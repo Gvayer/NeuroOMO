@@ -37,7 +37,8 @@ def start():
 	 
 
 	def button_callback():
-		command = entry1.get()			
+		command = entry1.get()
+		print(command)
 		text.insert("end", cp.define_command(command) + "\n")
 
 

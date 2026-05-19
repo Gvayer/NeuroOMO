@@ -106,12 +106,14 @@ def execute_command(command, args):
 	elif command == 'temperature':
 		TempLocList = ["дома", "тут", "в квартире", "в комнате"]
 		if args["location"] == None or args["location"] not in TempLocList:
-			return "*температура на улице*"
+			text = "*температура на улице*"
 		else:
-			return "*температура в комнтае*"
+			text = "*температура в комнтае*"
+		return text
 
 	elif command == 'humidity':
-		return "*влажность на улице*"
+		text = "*влажность на улице*"
+		return text
 
 	elif command == 'thanks':
 		rates = ['Всегда пожалуйста', 'Буду стараться и дальше', 'взаимно', 'Я польщён, сэр']
@@ -135,77 +137,95 @@ def execute_command(command, args):
 	elif command == 'turn _on':
 		if args["object"] == "свет":
 			if args["color"] == "синий":
-				return "*синий светодиод включён*"
+				text = "*синий светодиод включён*"
+				print(text)
+				return text
 			elif args["color"] == "зелёный":
-				return "*зелёный светодиод включён*"
+				text = "*зелёный светодиод включён*"
+				return text
 			elif args["color"] == "красный":
-				return "*красный светодиод включён*"
+				text = "*красный светодиод включён*"
+				return text
 		elif args["object"] == "вентилят ##ор":
-			return "*вентилятор включён*"
+			text = "*вентилятор включён*"
+			return text
 		elif args["object"] == "музыку":
-			return "Какой-то праздник, сэр?"
+			text = "Какой-то праздник, сэр?"
+			return text
 			threadmus = Thread(target=music_player, args=(0,))
 			threadmus.start()
 
 	elif command == 'turn_off':
 		if args["object"] == "свет":
-			weather.light(0)
-			return "*светодиод выключен*"
+			text = "*светодиод выключен*"
+			return text
 		elif args["object"] == "вентилят ##ор":
-			weather.light(5)
-			return "*вентилятор выключен*"
+			text = "*вентилятор выключен*"
+			return text
 		elif args["object"] == "музыку":
 			player.delete()
 			pyglet.app.exit()
-			return "Неужели вечеринка окончена, сэр?"
+			text = "Неужели вечеринка окончена, сэр?"
+			return text
 
 	elif command == 'alarm':
 		threadALARM = Thread(target=alarm, args=(args["time"],))
 		threadALARM.start()
-		return "Готово, сэр. Сегодня точно не проспите"
+		text = "Готово, сэр. Сегодня точно не проспите"
+		return text
 
-	elif command == 'notes':
-		if 'добавь' in cmd:
-			f = open('notes.txt', 'a')
-			for x in list:
-				cmd = cmd.replace(x, '').strip()
-			cmd += '\n'
-			f.write(cmd)
-			return 'добавлено в заметки'
-			f.close()
+	# elif command == 'notes':
+	# 	if 'добавь' in cmd:
+	# 		f = open('notes.txt', 'a')
+	# 		for x in list:
+	# 			cmd = cmd.replace(x, '').strip()
+	# 		cmd += '\n'
+	# 		f.write(cmd)
+	# 		text = 'добавлено в заметки'
+	# 		return text
+	# 		f.close()
 
-		elif ('какие' in cmd) or ('что' in cmd):
-			f = open('notes.txt', 'r')
-			if os.path.getsize('notes.txt') == 0:
-				return 'В заметках ничего нет'
-			else:
-				return 'В заметках \n'
-				for line in f:
-					return line.strip() + "\n"
-			f.close()
+	# 	elif ('какие' in cmd) or ('что' in cmd):
+	# 		f = open('notes.txt', 'r')
+	# 		if os.path.getsize('notes.txt') == 0:
+	# 			text = 'В заметках ничего нет'
+	# 			return text
+	# 		else:
+	# 			text = 'В заметках \n'
+	# 			for line in f:
+	# 				return text + line.strip() + "\n"
+	# 		f.close()
 
-		elif 'очисти' in cmd:
-			f = open('notes.txt', 'w')
-			return 'Все заметки удалены'
-			f.close()
+	# 	elif 'очисти' in cmd:
+	# 		f = open('notes.txt', 'w')
+	# 		text = 'Все заметки удалены'
+	# 		return text
+	# 		f.close()
 
 	elif command == 'timer':
-		return "Таймер установлен на " + args["duration_num"] + " " + args["duration_unit"]
+		text = "Таймер установлен на " + args["duration_num"] + " " + args["duration_unit"]
+		return text
 
 	elif command == 'news':
-		return "*читает новости*"
+		text = "*читает новости*"
+		return text
 
 	if command == 'raspconnect':
-		return 'Подключаюсь...'
+		text = 'Подключаюсь...'
+		return text
 	
 	elif command == 'token':
-		return "История очищена"
+		text = "История очищена"
+		return text
 
 	elif command == 'work':
-		return "*WorkMode*"
+		text = "*WorkMode*"
+		return text
 
 	elif command == 'block':
-		return "блокирую систему"
+		text = "блокирую систему"
+		return text
 
 	elif command == 'telesend':
-		return 'сообщение отправлено'
+		text = 'сообщение отправлено'
+		return text
