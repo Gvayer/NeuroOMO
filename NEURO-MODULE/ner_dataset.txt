@@ -1,0 +1,667 @@
+включи O
+свет B-OBJECT
+
+включи O
+лампу B-OBJECT
+
+включи O
+вентилятор B-OBJECT
+
+включи O
+музыку B-OBJECT
+
+включи O
+телевизор B-OBJECT
+
+включи O
+кондиционер B-OBJECT
+
+включи O
+обогреватель B-OBJECT
+
+включи O
+плиту B-OBJECT
+
+включи O
+чайник B-OBJECT
+
+зажги O
+свет B-OBJECT
+
+зажги O
+лампу B-OBJECT
+
+вруби O
+свет B-OBJECT
+
+вруби O
+музыку B-OBJECT
+
+запусти O
+вентилятор B-OBJECT
+
+запусти O
+музыку B-OBJECT
+
+включи O
+синий B-COLOR
+свет B-OBJECT
+
+включи O
+красный B-COLOR
+свет B-OBJECT
+
+включи O
+зеленый B-COLOR
+свет B-OBJECT
+
+включи O
+желтый B-COLOR
+свет B-OBJECT
+
+зажги O
+красный B-COLOR
+свет B-OBJECT
+
+зажги O
+синий B-COLOR
+свет B-OBJECT
+
+вруби O
+зеленый B-COLOR
+свет B-OBJECT
+
+включи O
+белую B-COLOR
+лампу B-OBJECT
+
+включи O
+свет B-OBJECT
+в O
+комнате B-LOCATION
+
+включи O
+свет B-OBJECT
+на O
+кухне B-LOCATION
+
+включи O
+свет B-OBJECT
+в O
+спальне B-LOCATION
+
+включи O
+свет B-OBJECT
+в O
+зале B-LOCATION
+
+включи O
+вентилятор B-OBJECT
+на O
+кухне B-LOCATION
+
+включи O
+музыку B-OBJECT
+в O
+комнате B-LOCATION
+
+зажги O
+свет B-OBJECT
+в O
+ванной B-LOCATION
+
+вруби O
+свет B-OBJECT
+в O
+коридоре B-LOCATION
+
+включи O
+синий B-COLOR
+свет B-OBJECT
+в O
+спальне B-LOCATION
+
+включи O
+красный B-COLOR
+свет B-OBJECT
+в O
+комнате B-LOCATION
+
+зажги O
+зеленый B-COLOR
+свет B-OBJECT
+на O
+кухне B-LOCATION
+
+выключи O
+свет B-OBJECT
+
+выключи O
+лампу B-OBJECT
+
+выключи O
+вентилятор B-OBJECT
+
+выключи O
+музыку B-OBJECT
+
+выключи O
+телевизор B-OBJECT
+
+выключи O
+кондиционер B-OBJECT
+
+погаси O
+свет B-OBJECT
+
+выруби O
+музыку B-OBJECT
+
+отключи O
+вентилятор B-OBJECT
+
+выключи O
+свет B-OBJECT
+в O
+комнате B-LOCATION
+
+выключи O
+свет B-OBJECT
+на O
+кухне B-LOCATION
+
+выключи O
+вентилятор B-OBJECT
+в O
+спальне B-LOCATION
+
+погаси O
+свет B-OBJECT
+в O
+зале B-LOCATION
+
+выруби O
+музыку B-OBJECT
+в O
+комнате B-LOCATION
+
+выключи O
+синий B-COLOR
+свет B-OBJECT
+
+поставь O
+таймер O
+на O
+10 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+поставь O
+таймер O
+на O
+5 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+поставь O
+таймер O
+на O
+2 B-DURATION_NUM
+часа B-DURATION_UNIT
+
+поставь O
+таймер O
+на O
+полчаса B-DURATION_UNIT
+
+засеки O
+10 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+засеки O
+5 B-DURATION_NUM
+секунд B-DURATION_UNIT
+
+засеки O
+полчаса B-DURATION_UNIT
+
+таймер O
+на O
+15 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+таймер O
+на O
+1 B-DURATION_NUM
+час B-DURATION_UNIT
+
+запусти O
+таймер O
+на O
+20 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+напомни O
+через O
+10 B-DURATION_NUM
+минут B-DURATION_UNIT
+
+напомни O
+через O
+полчаса B-DURATION_UNIT
+
+напомни O
+через O
+5 B-DURATION_NUM
+секунд B-DURATION_UNIT
+
+поставь O
+будильник O
+на O
+7 B-TIME
+утра I-TIME
+
+поставь O
+будильник O
+на O
+8:30 B-TIME
+
+поставь O
+будильник O
+на O
+9 B-TIME
+вечера I-TIME
+
+поставь O
+будильник O
+на O
+12 B-TIME
+ночи I-TIME
+
+разбуди O
+меня O
+в O
+7 B-TIME
+утра I-TIME
+
+разбуди O
+меня O
+в O
+8 B-TIME
+
+разбуди O
+в O
+6:30 B-TIME
+
+установи O
+будильник O
+на O
+10 B-TIME
+утра I-TIME
+
+создай O
+будильник O
+на O
+7:15 B-TIME
+
+прибавь O
+звук O
+
+прибавь O
+громкость O
+
+прибавь O
+звук O
+на O
+10 B-VALUE
+процентов O
+
+прибавь O
+громкость O
+на O
+20 B-VALUE
+
+убавь O
+звук O
+
+убавь O
+громкость O
+
+убавь O
+звук O
+на O
+5 B-VALUE
+процентов O
+
+увеличь O
+громкость O
+
+уменьши O
+громкость O
+
+сделай O
+потише B-DIRECTION
+
+сделай O
+погромче B-DIRECTION
+
+тише B-DIRECTION
+
+громче B-DIRECTION
+
+установи O
+громкость O
+50 B-VALUE
+процентов O
+
+громкость O
+на O
+половину B-VALUE
+
+громкость O
+на O
+30 B-VALUE
+
+сделай O
+звук O
+тише B-DIRECTION
+
+сделай O
+звук O
+громче B-DIRECTION
+
+прибавь O
+громкость O
+на O
+максимум B-VALUE
+
+добавь O
+в O
+заметки O
+купить B-NOTE_TEXT
+хлеб I-NOTE_TEXT
+
+добавь O
+в O
+заметки O
+позвонить B-NOTE_TEXT
+маме I-NOTE_TEXT
+
+добавь O
+заметку O
+купить B-NOTE_TEXT
+молоко I-NOTE_TEXT
+
+добавь O
+заметку O
+позвонить B-NOTE_TEXT
+папе I-NOTE_TEXT
+
+запиши O
+купить B-NOTE_TEXT
+хлеб I-NOTE_TEXT
+
+запиши O
+позвонить B-NOTE_TEXT
+маме I-NOTE_TEXT
+
+запиши O
+что O
+мне O
+надо O
+купить B-NOTE_TEXT
+хлеб I-NOTE_TEXT
+
+запиши O
+что O
+нужно O
+доделать B-NOTE_TEXT
+скрипт I-NOTE_TEXT
+
+создай O
+заметку O
+прочитать B-NOTE_TEXT
+книгу I-NOTE_TEXT
+
+создай O
+новую O
+заметку O
+вынести B-NOTE_TEXT
+мусор I-NOTE_TEXT
+
+добавь O
+в O
+список O
+дел O
+поливать B-NOTE_TEXT
+цветы I-NOTE_TEXT
+
+прочитай O
+заметки O
+
+покажи O
+заметки O
+
+очисти O
+заметки O
+
+удали O
+все O
+заметки O
+
+что O
+у O
+меня O
+в O
+заметках O
+
+удали O
+заметку O
+купить B-NOTE_TEXT
+хлеб I-NOTE_TEXT
+
+найди O
+в O
+заметках O
+про O
+рецепт B-QUERY
+
+найди O
+рецепт B-QUERY
+пиццы I-QUERY
+
+найди O
+столицу B-QUERY
+Франции I-QUERY
+
+найди O
+ближайшее B-QUERY
+кафе I-QUERY
+
+найди O
+где B-QUERY
+купить I-QUERY
+молоко I-QUERY
+
+поищи O
+информацию B-QUERY
+о I-QUERY
+кошках I-QUERY
+
+поищи O
+отели B-QUERY
+в I-QUERY
+сочи I-QUERY
+
+загугли O
+столица B-QUERY
+Франции I-QUERY
+
+загугли O
+что B-QUERY
+такое I-QUERY
+нейросеть I-QUERY
+
+открой O
+браузер B-OBJECT
+
+открой O
+сайт B-QUERY
+с I-QUERY
+рецептами I-QUERY
+
+найди O
+видео B-QUERY
+с I-QUERY
+котами I-QUERY
+
+найди O
+песню B-QUERY
+группы I-QUERY
+кино I-QUERY
+
+поищи O
+фильм B-QUERY
+аватар I-QUERY
+
+что O
+такое O
+фотосинтез B-QUERY
+
+какая O
+погода B-QUERY
+сегодня I-QUERY
+
+сколько O
+времени B-QUERY
+в O
+москве I-QUERY
+
+какая O
+влажность O
+
+влажность O
+в O
+комнате B-LOCATION
+
+уровень O
+влажности O
+
+сколько O
+процентов O
+влажности O
+
+какая O
+сейчас O
+влажность O
+
+влажность O
+воздуха O
+
+проверь O
+влажность O
+в O
+спальне B-LOCATION
+
+какая O
+температура O
+на O
+улице B-LOCATION
+
+сколько O
+градусов O
+за O
+окном B-LOCATION
+
+температура O
+в O
+комнате B-LOCATION
+
+что O
+с O
+погодой O
+
+сколько O
+там O
+на O
+улице B-LOCATION
+
+холодно O
+на O
+улице B-LOCATION
+
+градусов O
+
+какая O
+температура O
+сейчас O
+
+температура O
+в O
+москве B-LOCATION
+
+новости O
+
+что O
+нового O
+в O
+мире B-LOCATION
+
+покажи O
+новости O
+
+расскажи O
+новости O
+
+свежие O
+новости O
+
+последние O
+новости O
+
+новости O
+спорта B-QUERY
+
+новости O
+политики B-QUERY
+
+спасибо O
+
+молодец O
+
+ты O
+лучший O
+
+отлично O
+сработано O
+
+неплохо O
+
+красавец O
+
+благодарю O
+
+спасибо O
+большое O
+
+умница O
+
+ты O
+крут O
+
+супер O
+
+выключи O
+звук O
+
+без O
+звука O
+
+отключи O
+звук O
+
+выключи O
+звук O
+на O
+телефоне B-OBJECT
+
+отключи O
+уведомления O
