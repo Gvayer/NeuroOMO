@@ -1,7 +1,7 @@
 # NeuroOMO
 
 #HOW TO INSTALL
-1. GOTO  https://drive.google.com/file/d/12BKylQU88WU2uIf8K-yzHklMXBfW_hrT/view?usp=sharing  and download the project
+1. GOTO  https://drive.google.com/file/d/198c6ESXX5BdPgFVJ2aKxWWCOESGaWU6U/view?usp=sharing  and download the project
 2. Unzip
 3. Chech missing libraries
 4. Type in terrminal "python interfaceLAB.py"
